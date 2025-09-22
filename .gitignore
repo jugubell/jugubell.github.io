@@ -1,1 +1,9 @@
+# idea
 .idea/
+src/
+
+# node
+node_modules/
+package.json
+package-lock.json
+postcss.config.mjs

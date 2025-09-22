@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Home | Jugubell</title>
+    <link rel="stylesheet" href="public/css/output.css">
+    <link rel="shortcut icon" href="./public/img/jugubell-icon-official-logo.svg" type="image/x-icon">
+    <script src="./public/js/main.js"></script>
 </head>
-<body>
-    Home page.
+<body  class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed">
+    <div class="h-full">
+        <!--Nav-->
+        <div class="container mx-auto">
+            <div class="w-full flex items-center justify-between">
+                <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
+                    <img src="./public/img/jugubell-official-logo-2025.svg" alt="jugubell-logo" class="max-h-64 w-auto">
+                </a>
+
+                <div class="flex w-1/2 justify-end content-center">
+                    <a class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://github.com/jugubell" target="_blank">
+                        <img src="./public/img/github-mark-white.svg" alt="github" class="md:w-10 w-5">
+                    </a>
+                    <a class="inline-block text-blue-300 no-underline hover:text-pink-500 hover:text-underline text-center p-2 md:h-auto md:p-4 transform hover:scale-125 duration-300 ease-in-out" href="https://www.linkedin.com/in/jugurtha-bellagh/" target="_blank">
+                        <img src="./public/img/InBug-White.png" alt="linkedin" class="md:w-10 w-5">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <!--Main-->
+        <div class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <!--Left Col-->
+            <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
+                <h1 class="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
+                    Programming
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">
+                  is always
+                </span>
+                    being fun!
+                </h1>
+                <h2 class="leading-normal text-base md:text-4xl mb-2 text-center md:text-left font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-red-400">
+                    Jugurtha Bellagh
+                </h2>
+                <h2 class="leading-normal text-base md:text-2xl mb-2 text-center md:text-left text-blue-100">
+                    PhD Student in Electronic Embedded Systems<span class="bg-clip-text md:text-4xl font-extrabold ml-2 text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">;</span>
+                </h2>
+                <h2 class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left text-blue-100">
+                    Software Developer<span class="bg-clip-text md:text-4xl font-extrabold text-transparent ml-2 bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">;</span>
+                </h2>
+            </div>
+
+            <!--Right Col-->
+            <div class="w-full xl:w-3/5 p-12 overflow-hidden">
+                <a href="https://github.com/jugubell/bproc-cli" target="_blank">
+                    <img class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6" src="./public/img/main_image.png" alt="main_image" title="My last project on GitHub" />
+                </a>
+            </div>
+        </div>
+
+        <div class="flex justify-center leading-normal text-base md:text-2xl md:mt-20 md:pt-20 mx-5 text-center md:text-left text-blue-100">
+            <div>
+                <span class="bg-clip-text md:text-4xl font-extrabold text-transparent mr-1 bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">@</span>PreferredLanguages
+            </div>
+        </div>
+        <div class="leading-normal text-base md:text-2xl mx-2 text-center md:text-left text-blue-100">
+
+            <div class="flex justify-center mx-5 gap-4 sm:mx-10 sm:gap-2 mt-5">
+                <img src="./public/img/icons8-java-logo-50.png" alt="java" class="hover:scale-125" onmouseover="displayLang(1)" onmouseleave="resetDisplayLang()">
+                <img src="./public/img/icons8-c++-50.png" alt="cpp" class="hover:scale-125" onmouseover="displayLang(2)" onmouseleave="resetDisplayLang()">
+                <img src="./public/img/icons8-c-programming-50.png" alt="c" class="hover:scale-125" onmouseover="displayLang(3)" onmouseleave="resetDisplayLang()">
+                <img src="./public/img/icons8-javascript-50.png" alt="js" class="hover:scale-125" onmouseover="displayLang(4)" onmouseleave="resetDisplayLang()">
+                <img src="./public/img/icons8-python-50.png" alt="js" class="hover:scale-125" onmouseover="displayLang(5)" onmouseleave="resetDisplayLang()">
+                <img src="./public/img/icons8-sql-50.png" alt="js" class="hover:scale-125" onmouseover="displayLang(6)" onmouseleave="resetDisplayLang()">
+            </div>
+        </div>
+
+        <div class="flex justify-center py-5 text-4xl text-blue-100 font-bold">
+            <span id="lang" class="text-transparent">X</span>
+        </div>
+        <div class="my-5 py-5">
+            <div class="flex justify-center leading-normal text-base md:text-2xl mx-5 text-center md:text-left text-blue-100">
+                <div>
+                    <span class="bg-clip-text md:text-4xl font-extrabold text-transparent mr-1 bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">@</span>Contact
+                </div>
+            </div>
+
+            <div class="flex justify-center pt-1 mt-1 text-lg text-blue-100 font-bold">
+                <a href="mailto:jugubell@proton.me">jugubell@proton.me</a>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <div class="flex justify-center w-full pt-16 pb-6 text-sm text-center md:text-left fade-in">
+            <div>
+                <a class="text-gray-500 no-underline hover:no-underline" href="#">Copyright &copy; 2025 Jugurtha Bellagh</a>
+                - Template by
+                <a class="text-gray-500 no-underline hover:no-underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
