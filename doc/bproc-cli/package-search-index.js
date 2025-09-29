@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.jugubell.bproccli"},{"l":"com.jugubell.bproccli.cli"},{"l":"com.jugubell.bproccli.compiler"},{"l":"com.jugubell.bproccli.console"},{"l":"com.jugubell.bproccli.files"},{"l":"com.jugubell.bproccli.utils"}];updateSearchResults();

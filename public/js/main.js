@@ -31,3 +31,21 @@ function resetDisplayLang() {
     langSpan.className = "text-transparent";
 
 }
+
+function toTab(id) {
+    let navLinks = document.getElementById("nav-links").getElementsByTagName("a");
+    let navLinksArray = [];
+    for (let i = 0; i < navLinks.length; i++) {
+        if(navLinks[i].hasAttribute("id")) {
+             navLinksArray[i] = navLinks[i].innerText.toLowerCase();
+        }
+    }
+
+    for (let i = 0; i < navLinksArray.length; i++) {
+        if(!document.getElementById(navLinksArray[i]).classList.contains("hidden")) {
+            document.getElementById(navLinksArray[i]).classList.add("hidden");
+        }
+    }
+
+    document.getElementById(id).classList.remove("hidden");
+}
