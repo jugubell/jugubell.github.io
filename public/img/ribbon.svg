@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="101.97423mm"
+   height="195.55032mm"
+   clip-rule="evenodd"
+   fill-rule="evenodd"
+   image-rendering="optimizeQuality"
+   shape-rendering="geometricPrecision"
+   text-rendering="geometricPrecision"
+   viewBox="0 0 101.97422 195.55033"
+   version="1.1"
+   id="svg9"
+   sodipodi:docname="ribbon.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview9"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.28386257"
+     inkscape:cx="176.14158"
+     inkscape:cy="465.01376"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9" />
+  <defs
+     id="defs6">
+    <style
+       type="text/css"
+       id="style1">.fil0 {fill:#DD137B} .fil1 {fill:url(#b)} .fil2 {fill:url(#a)}</style>
+    <linearGradient
+       id="b"
+       x1="168.2"
+       x2="168.2"
+       y1="197.05"
+       y2="15.062"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#DD137B"
+         offset="0"
+         id="stop1" />
+      <stop
+         stop-color="#F19ABE"
+         offset=".81961"
+         id="stop2" />
+      <stop
+         stop-color="#FBD8E7"
+         offset=".98824"
+         id="stop3" />
+      <stop
+         stop-color="#fff"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       id="a"
+       x1="147.78"
+       x2="100.57"
+       y1="10.113"
+       y2="67.010002"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#DD137B"
+         offset="0"
+         id="stop5" />
+      <stop
+         stop-color="#fff"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+  </defs>
+  <g
+     id="g9"
+     transform="rotate(33.622327,111.50416,-94.573659)">
+    <path
+       class="fil0"
+       d="m 250.24,161.37 -4.4559,-36.796 c -72.323,-29.695 -151.94,-61.298 -150.3,-78.786 5.6218,28.017 14.288,46.658 25.998,55.925 39.166,26.875 82.627,45.429 128.75,59.657 z"
+       id="path6" />
+    <path
+       class="fil1"
+       d="m 194.11,198.9 -32.818,-17.226 c -2.0929,-78.154 -3.3793,-163.8 -20.313,-168.47 24.197,15.2 38.549,29.918 43.057,44.154 11.224,46.155 13.145,93.372 10.074,141.55 z"
+       id="path7"
+       style="fill:url(#b)" />
+    <path
+       class="fil0"
+       d="m 139.42,14.208 c -22,-4.8944 -42.223,10.755 -43.77,29.624 2.7951,10.767 12.308,16.216 16.223,18.341 7.8228,-18.871 21.517,-26.344 39.228,-26.018 -2.6993,-10.824 -5.5346,-21.212 -11.681,-21.947 z"
+       id="path8" />
+    <path
+       class="fil2"
+       d="m 140.22,15.032 c -22,-4.8945 -42.223,10.755 -43.77,29.624 2.7951,10.767 12.308,16.216 16.223,18.341 7.823,-18.872 21.517,-26.344 39.229,-26.018 -2.6992,-10.824 -5.5346,-21.212 -11.681,-21.947 z"
+       id="path9"
+       style="fill:url(#a)" />
+  </g>
+</svg>
