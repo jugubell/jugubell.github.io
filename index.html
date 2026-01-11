@@ -10,6 +10,41 @@
     <div class="main">
         <h1>Jugurtha Bellagh</h1>
         <h3>PhD Student in Electronic Embedded Systems</h3>
+        <div style="margin-top: 80px"></div>
+        <h2>Languages</h4>
+        <p>C, C++, English, French, Go, Java, Python, Ruby, Verilog, VHDL</p>
+        <div style="margin-top: 80px"></div>
+        <h2>Projects</h4>
+        <ul class="regular-list">
+            <li>
+                <h3>BProC-CLI</h3>
+                <p><strong>Description:</strong> BProC is a compiler for basic processor designs, it uses assembly code written in .bpasm files. BProC-CLI is a simple command line interface for compiling assembler files .bpasm for basic processors intended for education use. The vision of the project is to provide simple way to generate RAM programs while designing basic processors. The project, as it is, provide a rigid instruction set, but the goal is to provide a configurable instruction set.</p>
+                <p><strong>Languages and tools:</strong> Java, Maven, jpackage, wix tools.</p>
+                <ul class="link-list">
+                    <li><a href="https://github.com/jugubell/bproc-cli" target="_blank">Github Repo</a></li>
+                    <li><a href="./dev-doc/bproc-cli/index.html" target="_blank">Java Doc</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>BProC-WEB</h3>
+                <p><strong>Description:</strong> BProC-WEB is the web version of the BProC-CLI project (see the next project below). It uses the same CLI proxied with a web interface.</p>
+                <p><strong>Languages and tools:</strong> Go, SvelteKit, docker.</p>
+                <ul class="link-list">
+                    <li><a href="https://bproc.onrender.com/" target="_blank">Live Demo</a></li>
+                    <li><a href="https://github.com/jugubell/bproc-web" target="_blank">Github Repo</a></li>
+                    <li><a href="https://hub.docker.com/r/jugubell/bproc-web/tags" target="_blank">Docker image</a></li>
+                </ul>
+            </li>
+                        <li>
+                <h3>Basic Processor</h3>
+                <p><strong>Description:</strong> Basic Processor is a basic processor described in VHDL with custom instruction set of 24 instructions. The processor is tested on a Digilent Zybo board.</p>
+                <p><strong>Languages and tools:</strong> VHDL, Vivado 2024, Digilent Zybo.</p>
+                <ul class="link-list">
+                    <li><a href="https://github.com/jugubell/basic_processor" target="_blank">Github Repo</a></li>
+                </ul>
+                <img src="img/run_zybo.gif" alt="zybo_running_basic_processor">
+            </li>
+        </ul>
     </div>
 </body>
 </html>

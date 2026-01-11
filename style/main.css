@@ -3,10 +3,44 @@ body {
 }
 
 .main {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 80px;
+    margin-right: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .main {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 .main > h1 {
     font-size: xx-large;
+}
+
+.link-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.link-list > li {
+    display: inline;
+    padding-right: 10px;
+}
+
+.regular-list > li {
+    padding-bottom: 25px;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
