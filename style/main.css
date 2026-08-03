@@ -19,13 +19,14 @@ body {
         margin-left: 5px;
         margin-right: 5px;
     }
+
     img {
         width: 100%;
         height: auto;
     }
 }
 
-.main > h1 {
+.main>h1 {
     font-size: xx-large;
 }
 
@@ -35,16 +36,25 @@ body {
     padding: 0px;
 }
 
-.link-list > li {
+.link-list>li {
     display: inline;
     padding-right: 10px;
 }
 
-.regular-list > li {
+.regular-list>li {
     padding-bottom: 25px;
 }
 
 img {
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.contact {
+    margin-bottom: 3rem;
+}
+
+.quote {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
